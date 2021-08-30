@@ -45,9 +45,9 @@ function calculateProfitAndLoss(init,qt,pr)
 submit.addEventListener("click",()=>{
     
 
-    var init = initial.value;
-    var qt = quantity.value;
-    var pr = price.value;
+    var init = Number(initial.value);
+    var qt = Number(quantity.value);
+    var pr = Number(price.value);
 
 
 
